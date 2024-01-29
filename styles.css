@@ -1,0 +1,163 @@
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/fonts/outfit/static/Outfit-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/fonts/outfit/static/Outfit-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Young Serif';
+    src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Young Serif', sans-serif;
+    width: 100%;
+    font-size: 40px;
+}
+
+h2 {
+    color: rgb(122, 70, 70);
+    font-family: 'Young Serif', sans-serif;
+    font-size: 28px;
+}
+
+h3 {
+    color: hsl(330, 67%, 31%);
+    font-weight: 600;
+}
+
+p {
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+strong {
+    color: hsl(24, 5%, 18%);
+    font-weight: 700;
+    /* color: hsl(24, 5%, 18%) */
+}
+
+ul {
+    list-style-type: square;
+    padding-inline-start: 20px;
+}
+
+ol {
+    padding-inline-start: 20px;
+}
+
+li {
+    color: rgb(122, 70, 70);
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-size: 12px
+}
+
+body {
+    width: 1440px;
+    margin-left: 0; 
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit', sans-serif;
+}
+.recipe-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    margin-top: 110px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+.recipe-cover img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.recipe-title h1 {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.recipe-title p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.preparation-time {
+    width: calc(100% - 30px);
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.preparation-time p {
+    margin: 0;
+}
+
+.preparation-time li {
+    color: hsl(330, 67%, 31%);
+}
+
+.ingredients {
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.instructions {
+    width: 100%;
+}
+
+.instructions li {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nutrition {
+    width: 100%;
+}
+
+.nutrition table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition tr:not(:last-child) {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition td:nth-child(2) {
+    color: rgb(122, 70, 70);
+    font-weight: bold;
+}
+.attribution {
+    margin-bottom: 90px;
+}
